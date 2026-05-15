@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: text/event-stream
+Date: Sat, 02 May 2026 10:57:11 GMT
+Transfer-Encoding: chunked
+
+{"id":"chatcmpl-424","object":"chat.completion.chunk","created":1777719431,"model":"functiongemma:270m","choices":[{"index":0,"message":{"role":"","content":null},"finish_reason":"","delta":{"role":"assistant","content":"","tool_calls":[{"id":"call_6e59d88n","type":"function","function":{"name":"readfile","arguments":"{\"path\":\"/Users/tj/sourcecode/time.sh\"}"}}]}}],"usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0},"system_fingerprint":"fp_ollama"}
+{"id":"chatcmpl-424","object":"chat.completion.chunk","created":1777719432,"model":"functiongemma:270m","choices":[{"index":0,"message":{"role":"","content":null},"finish_reason":"","delta":{"role":"assistant","content":"","tool_calls":[{"id":"call_1abscisk","type":"function","function":{"name":"writefile","arguments":"{\"content\":\"脚本执行时的定时任务执行内容\",\"path\":\"/Users/tj/sourcecode/time.sh\"}"}}]}}],"usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0},"system_fingerprint":"fp_ollama"}
+{"id":"chatcmpl-424","object":"chat.completion.chunk","created":1777719432,"model":"functiongemma:270m","choices":[{"index":0,"message":{"role":"","content":null},"finish_reason":"tool_calls","delta":{"role":"assistant","content":""}}],"usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0},"system_fingerprint":"fp_ollama"}

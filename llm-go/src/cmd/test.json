@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: text/event-stream
+Date: Mon, 04 May 2026 09:34:59 GMT
+Transfer-Encoding: chunked
+
+{"id":"chatcmpl-460","object":"chat.completion.chunk","created":1777887299,"model":"granite4.1:3b","choices":[{"index":0,"message":{"role":"","content":null},"finish_reason":"","delta":{"role":"assistant","content":"","tool_calls":[{"id":"call_dmpdmpa9","type":"function","function":{"name":"readfile","arguments":"{\"path\":\"/tmp/test1.txt\"}"}}]}}],"usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0},"system_fingerprint":"fp_ollama"}
+{"id":"chatcmpl-460","object":"chat.completion.chunk","created":1777887299,"model":"granite4.1:3b","choices":[{"index":0,"message":{"role":"","content":null},"finish_reason":"tool_calls","delta":{"role":"assistant","content":""}}],"usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0},"system_fingerprint":"fp_ollama"}
