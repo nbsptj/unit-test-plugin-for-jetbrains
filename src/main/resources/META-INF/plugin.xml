@@ -22,9 +22,11 @@
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
+    <resource-bundle>messageBundle</resource-bundle>
+
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="GenerateUnitTest" anchor="right" factoryClass="org.hay.pages.UnitTestToolWindowFactory" />
+        <toolWindow id="GenUnitTestToolWindow" icon="/icons/plugin_icon.svg" anchor="right" factoryClass="org.hay.pages.ToolWindowFactory" />
     </extensions>
 </idea-plugin>
