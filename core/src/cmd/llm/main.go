@@ -1,8 +1,8 @@
 package main
 
 import (
+	"core/src/llm"
 	"fmt"
-	"llm-go/src/llm"
 	"net/http"
 )
 

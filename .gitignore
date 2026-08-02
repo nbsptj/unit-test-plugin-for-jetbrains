@@ -45,5 +45,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-llm-go/src/cmd/deepseek-apikey
-llm-go/src/cmd/deepseek-curl.sh
+core/src/cmd/deepseek-apikey
+core/src/cmd/deepseek-curl.sh
